@@ -5,6 +5,9 @@
 # Make sure we’re using the latest Homebrew.
 brew update
 
+# Install all our dependencies with bundle (See Brewfile)
+brew tap homebrew/bundle
+
 # Upgrade any already-installed formulae.
 brew upgrade
 
