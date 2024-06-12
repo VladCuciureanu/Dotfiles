@@ -44,5 +44,11 @@ mkdir $HOME/.nvm
 # Symlink the Mackup config file to the home directory
 ln -s $HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg
 
+# Symlink the Curl config file to the home directory
+ln -s $HOME/.dotfiles/.curlrc $HOME/.curlrc
+
+# Symlink the Wget config file to the home directory
+ln -s $HOME/.dotfiles/.wgetrc $HOME/.wgetrc
+
 # Set macOS preferences - we will run this last because this will reload the shell
 # source ./.macos
