@@ -28,7 +28,7 @@ brew update
 
 # Install all our dependencies with bundle (See Brewfile)
 brew tap homebrew/bundle
-brew bundle --file ./Brewfile
+./brew.sh
 
 # Run patch scripts
 ./modules/alacritty/patch.sh
@@ -42,7 +42,7 @@ mkdir $HOME/Developer/Work
 mkdir $HOME/.nvm
 
 # Symlink the Mackup config file to the home directory
-ln -s ./.mackup.cfg $HOME/.mackup.cfg
+ln -s $HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg
 
 # Set macOS preferences - we will run this last because this will reload the shell
 # source ./.macos

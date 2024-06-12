@@ -28,12 +28,13 @@ cask 'docker'
 cask 'orbstack'
 
 # Development (Business)
-cask 'ngrok'
 brew 'redis'
 brew 'pyenv'
 brew 'poetry'
 brew 'supabase/tap/supabase'
+cask 'ngrok'
 
 # Utils
 brew 'blueutil'
+brew 'mackup'
 cask 'sanesidebuttons'
