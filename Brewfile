@@ -14,10 +14,12 @@ cask '1password'
 cask 'zoom'
 cask 'google-chrome'
 cask 'firefox'
+cask 'figma'
 
 # Development (Base)
 brew 'curl'
 brew 'neovim'
+brew 'fzf'
 brew 'nvm'
 cask 'alacritty'
 cask 'visual-studio-code'

@@ -96,6 +96,12 @@
         "options": {
           "full_name": "sanesidebuttons"
         }
+      },
+      "figma": {
+        "version": "124.0.2",
+        "options": {
+          "full_name": "figma"
+        }
       }
     },
     "brew": {
