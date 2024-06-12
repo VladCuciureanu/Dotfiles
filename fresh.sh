@@ -3,48 +3,37 @@
 echo "Setting up your Mac..."
 
 # Install Xcode tools
-xcode-select --install
-sudo xcodebuild -license accept
-
-# Check for Oh My Zsh and install if we don't have it
-if test ! $(which omz); then
-  /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/HEAD/tools/install.sh)"
+has_xcode="$(xcode-select -p 1>/dev/null;echo $?)"
+if [[ "$has_xcode" -ne "0" ]]; then
+  echo "Installing Xcode tools"
+  xcode-select --install
+  sudo xcodebuild -license accept
+else
+  echo "Xcode tools seem to be installed. Skipping setup..."
 fi
 
-# Check for Homebrew and install if we don't have it
-if test ! $(which brew); then
-  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
-  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> $HOME/.zprofile
-  eval "$(/opt/homebrew/bin/brew shellenv)"
-fi
+# Setup Brew
+./brew.sh
 
 # Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
 rm -rf $HOME/.zshrc
-ln -sw $HOME/.dotfiles/.zshrc $HOME/.zshrc
+ln -sw $HOME/.dotfiles/zsh/.zshrc $HOME/.zshrc
 
-# Setup Brew deps
-./brew.sh
 
 # Run patch scripts
 ./modules/alacritty/patch.sh
 
 # Create a projects directories
-mkdir $HOME/Developer
-mkdir $HOME/Developer/Personal
-mkdir $HOME/Developer/Work
+mkdir -p $HOME/Developer
+mkdir -p $HOME/Developer/Personal
+mkdir -p $HOME/Developer/Work
 
 # Setup NVM
-mkdir $HOME/.nvm
+mkdir -p $HOME/.nvm
 
 # Symlink the Mackup config file to the home directory
-ln -s $HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg
-
-# Symlink the Curl config file to the home directory
-ln -s $HOME/.dotfiles/.curlrc $HOME/.curlrc
-
-# Symlink the Wget config file to the home directory
-ln -s $HOME/.dotfiles/.wgetrc $HOME/.wgetrc
+rm -rf $HOME/.mackup.cfg
+ln -sw $HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg
 
 # Set macOS preferences - we will run this last because this will reload the shell
 # source ./.macos
