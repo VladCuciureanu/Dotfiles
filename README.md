@@ -7,7 +7,7 @@
 
 This repository serves as my way to help me setup and maintain my Mac. It takes the effort out of installing everything manually. Everything needed to install my preferred setup of macOS is detailed in this readme. Feel free to explore, learn and copy parts for your own dotfiles. Enjoy!
 
-### Backup your data
+## Backup your data
 
 If you're migrating from an existing Mac, you should first make sure to backup all of your existing data. Go through the checklist below to make sure you didn't forget anything before you migrate.
 
@@ -17,7 +17,7 @@ If you're migrating from an existing Mac, you should first make sure to backup a
 - Did you remember to export important data from your local database?
 - Did you update [mackup](https://github.com/lra/mackup) to the latest version and ran `mackup backup`?
 
-### Setting up your Mac
+## Setting up your Mac
 
 After backing up your old Mac you may now follow these install instructions to setup a new one.
 
