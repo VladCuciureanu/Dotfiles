@@ -15,6 +15,8 @@ cask 'zoom'
 cask 'google-chrome'
 cask 'firefox'
 cask 'figma'
+cask 'gimp'
+cask 'inkscape'
 
 # Development (Base)
 brew 'curl'
