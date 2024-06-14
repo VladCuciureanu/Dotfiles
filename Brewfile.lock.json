@@ -126,6 +126,12 @@
         "options": {
           "full_name": "inkscape"
         }
+      },
+      "transmission": {
+        "version": "4.0.6",
+        "options": {
+          "full_name": "transmission"
+        }
       }
     },
     "brew": {
