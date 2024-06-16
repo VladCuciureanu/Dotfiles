@@ -132,6 +132,12 @@
         "options": {
           "full_name": "transmission"
         }
+      },
+      "blender": {
+        "version": "4.1.1",
+        "options": {
+          "full_name": "blender"
+        }
       }
     },
     "brew": {

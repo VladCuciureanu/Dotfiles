@@ -9,6 +9,7 @@ cask 'slack'
 cask 'the-unarchiver'
 cask 'steam'
 cask 'transmission'
+cask 'blender'
 
 # Apps (Business)
 cask '1password'
