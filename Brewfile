@@ -19,6 +19,7 @@ cask 'firefox'
 cask 'figma'
 cask 'gimp'
 cask 'inkscape'
+cask 'notion'
 
 # Development (Base)
 brew 'curl'
