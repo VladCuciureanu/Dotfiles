@@ -3,20 +3,21 @@
 # tap 'homebrew/cask'
 
 # Apps
+cask '1password'
 cask 'blender'
 cask 'discord'
 cask 'slack'
 cask 'the-unarchiver'
 cask 'transmission'
 cask 'whatsapp'
-# cask 'steam'
+cask 'google-chrome'
+cask 'steam'
+cask 'notion'
+cask 'nvidia-geforce-now'
 
 # Apps (Business)
-cask '1password'
 cask 'figma'
-cask 'firefox'
-cask 'google-chrome'
-cask 'notion'
+# cask 'firefox'
 cask 'zoom'
 # cask 'gimp'
 # cask 'inkscape'
@@ -33,6 +34,7 @@ brew 'nvm'
 cask 'visual-studio-code'
 brew 'zoxide'
 brew 'zsh-autocomplete'
+cask 'postman'
 # cask 'insomnia'
 
 # Development (Business)
@@ -42,8 +44,10 @@ brew 'zsh-autocomplete'
 # brew 'pyenv'
 # brew 'redis'
 # brew 'supabase/tap/supabase'
+# cask 'loom'
 
 # Utils
 brew 'blueutil'
 brew 'mackup'
 cask 'sanesidebuttons'
+brew 'openjdk@17'
