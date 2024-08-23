@@ -10,3 +10,6 @@ add_to_path "$DOTFILES/bin"
 
 # Load global Node installed binaries
 add_to_path "$HOME/.node/bin"
+
+# Add Go to path
+add_to_path "/usr/local/go/bin"
