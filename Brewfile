@@ -14,6 +14,7 @@ cask 'google-chrome'
 cask 'steam'
 cask 'notion'
 cask 'nvidia-geforce-now'
+cask 'vlc'
 
 # Apps (Business)
 cask 'figma'
