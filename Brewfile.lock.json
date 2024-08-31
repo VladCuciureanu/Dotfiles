@@ -140,7 +140,7 @@
         }
       },
       "notion": {
-        "version": "3.13.0",
+        "version": "3.13.1",
         "options": {
           "full_name": "notion"
         }
@@ -167,6 +167,12 @@
         "version": "3.0.21",
         "options": {
           "full_name": "vlc"
+        }
+      },
+      "dbeaver-community": {
+        "version": "24.1.5",
+        "options": {
+          "full_name": "dbeaver-community"
         }
       }
     },

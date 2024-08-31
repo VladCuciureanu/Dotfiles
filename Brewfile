@@ -37,6 +37,7 @@ brew 'zoxide'
 brew 'zsh-autocomplete'
 cask 'postman'
 # cask 'insomnia'
+cask 'dbeaver-community'
 
 # Development (Business)
 # cask 'ngrok'
