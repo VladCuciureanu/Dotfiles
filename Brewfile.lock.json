@@ -8,7 +8,7 @@
         }
       },
       "discord": {
-        "version": "0.0.317",
+        "version": "0.0.318",
         "options": {
           "full_name": "discord"
         }
@@ -26,7 +26,7 @@
         }
       },
       "1password": {
-        "version": "8.10.40",
+        "version": "8.10.44",
         "options": {
           "full_name": "1password"
         }
@@ -56,13 +56,13 @@
         }
       },
       "google-chrome": {
-        "version": "128.0.6613.114",
+        "version": "128.0.6613.120",
         "options": {
           "full_name": "google-chrome"
         }
       },
       "firefox": {
-        "version": "128.0",
+        "version": "130.0",
         "options": {
           "full_name": "firefox"
         }
@@ -74,7 +74,7 @@
         }
       },
       "orbstack": {
-        "version": "1.6.2_17074",
+        "version": "1.7.2_17389",
         "options": {
           "full_name": "orbstack"
         }
@@ -152,13 +152,13 @@
         }
       },
       "postman": {
-        "version": "11.10.0",
+        "version": "11.11.0",
         "options": {
           "full_name": "postman"
         }
       },
       "nvidia-geforce-now": {
-        "version": "2.0.65.163",
+        "version": "2.0.66.160",
         "options": {
           "full_name": "nvidia-geforce-now"
         }
@@ -170,9 +170,15 @@
         }
       },
       "dbeaver-community": {
-        "version": "24.1.5",
+        "version": "24.2.0",
         "options": {
           "full_name": "dbeaver-community"
+        }
+      },
+      "wave": {
+        "version": "0.7.6",
+        "options": {
+          "full_name": "wave"
         }
       }
     },
@@ -513,15 +519,15 @@
         }
       },
       "zsh-autocomplete": {
-        "version": "23.07.13",
+        "version": "24.09.04",
         "bottle": {
           "rebuild": 0,
           "root_url": "https://ghcr.io/v2/homebrew/core",
           "files": {
             "all": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/zsh-autocomplete/blobs/sha256:67613df78e1b46ca46f15bda76f19417c0dd2a0462ee30bc0e3c5ec2437b64d9",
-              "sha256": "67613df78e1b46ca46f15bda76f19417c0dd2a0462ee30bc0e3c5ec2437b64d9"
+              "url": "https://ghcr.io/v2/homebrew/core/zsh-autocomplete/blobs/sha256:cbbda374b4344389d0518702923772f7e445de5c4a1426d5c1184a353e191735",
+              "sha256": "cbbda374b4344389d0518702923772f7e445de5c4a1426d5c1184a353e191735"
             }
           }
         }
@@ -721,7 +727,7 @@
   "system": {
     "macos": {
       "sequoia": {
-        "HOMEBREW_VERSION": "4.3.18",
+        "HOMEBREW_VERSION": "4.3.19",
         "HOMEBREW_PREFIX": "/opt/homebrew",
         "Homebrew/homebrew-core": "api",
         "CLT": "16.0.0.0.1.1723780521",

@@ -2,54 +2,61 @@
 # Example entry:
 # tap 'homebrew/cask'
 
-# Apps
-cask '1password'
-cask 'blender'
-cask 'discord'
-cask 'slack'
-cask 'the-unarchiver'
-cask 'transmission'
-cask 'whatsapp'
-cask 'google-chrome'
-cask 'steam'
-cask 'notion'
-cask 'nvidia-geforce-now'
-cask 'vlc'
+# Productivity & Utilities
+cask '1password'               # Password Manager
+brew 'mackup'                  # Backup utility for macOS settings
+cask 'notion'                  # Note-taking and collaboration
+cask 'sanesidebuttons'         # Mouse side button utility
+cask 'the-unarchiver'          # File extractor
+cask 'transmission'            # Torrent client
 
-# Apps (Business)
-cask 'figma'
-# cask 'firefox'
-cask 'zoom'
-# cask 'gimp'
-# cask 'inkscape'
+# Communication & Social
+cask 'discord'                 # Chat platform for gamers/communities
+# cask 'loom'                  # Video messaging tool
+cask 'nvidia-geforce-now'      # Cloud gaming
+cask 'slack'                   # Team communication
+cask 'steam'                   # Gaming platform
+cask 'whatsapp'                # Messaging app
+cask 'zoom'                    # Video conferencing
 
-# Development (Base)
-cask 'alacritty'
-brew 'curl'
-cask 'docker'
-cask 'font-jetbrains-mono'
-cask 'font-jetbrains-mono-nerd-font'
-brew 'fzf'
-brew 'neovim'
-brew 'nvm'
-cask 'visual-studio-code'
-brew 'zoxide'
-brew 'zsh-autocomplete'
-cask 'postman'
-# cask 'insomnia'
-cask 'dbeaver-community'
+# Web Browsers
+cask 'firefox'                 # Web browser
+cask 'google-chrome'           # Web browser
 
-# Development (Business)
-# cask 'ngrok'
-# cask 'orbstack'
-# brew 'poetry'
-# brew 'pyenv'
-# brew 'redis'
-# brew 'supabase/tap/supabase'
-# cask 'loom'
+# Design & Creative Tools
+cask 'blender'                 # 3D modeling
+cask 'figma'                   # Design tool
+# cask 'gimp'                  # Image editing software
+# cask 'inkscape'              # Vector graphics editor
 
-# Utils
-brew 'blueutil'
-brew 'mackup'
-cask 'sanesidebuttons'
-brew 'openjdk@17'
+# Development Tools
+cask 'alacritty'               # Terminal emulator
+brew 'blueutil'                # Command-line Bluetooth utility
+cask 'dbeaver-community'       # Database tool
+# cask 'docker'                # Containerization platform
+brew 'fzf'                     # Command-line fuzzy finder
+# cask 'insomnia'              # API Client for REST and GraphQL
+brew 'neovim'                  # Text editor
+brew 'nvm'                     # Node Version Manager
+brew 'openjdk@17'              # Java Development Kit 17
+cask 'orbstack'                # Docker Alternative (for containers/VMs)
+# brew 'poetry'                # Python dependency management
+cask 'postman'                 # API Development Tool
+# brew 'pyenv'                 # Python version management
+# brew 'redis'                 # In-memory key-value store (database)
+# brew 'supabase/tap/supabase' # Supabase CLI
+cask 'visual-studio-code'      # Code editor
+cask 'wave'                    # Terminal emulator
+brew 'zoxide'                  # Smarter cd command
+brew 'zsh-autocomplete'        # Autocompletion for Zsh
+
+# Fonts
+cask 'font-jetbrains-mono'      # JetBrains Mono font
+cask 'font-jetbrains-mono-nerd-font'  # JetBrains Mono Nerd Font
+
+# Media Players
+cask 'vlc'                     # Media player
+
+# Networking
+brew 'curl'                    # Command-line tool for transferring data
+# cask 'ngrok'                 # Secure introspectable tunnels to localhost
