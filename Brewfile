@@ -47,7 +47,7 @@ cask 'postman'                 # API Development Tool
 # brew 'supabase/tap/supabase' # Supabase CLI
 cask 'visual-studio-code'      # Code editor
 cask 'warp'                    # Terminal emulator
-cask 'wave'                    # Terminal emulator
+# cask 'wave'                    # Terminal emulator
 brew 'zoxide'                  # Smarter cd command
 brew 'zsh-autocomplete'        # Autocompletion for Zsh
 
