@@ -4,6 +4,7 @@
 
 # Productivity & Utilities
 cask '1password'               # Password Manager
+brew 'blueutil'                # Command-line Bluetooth utility
 brew 'mackup'                  # Backup utility for macOS settings
 cask 'notion'                  # Note-taking and collaboration
 cask 'sanesidebuttons'         # Mouse side button utility
@@ -31,7 +32,6 @@ cask 'figma'                   # Design tool
 
 # Development Tools
 cask 'alacritty'               # Terminal emulator
-brew 'blueutil'                # Command-line Bluetooth utility
 cask 'dbeaver-community'       # Database tool
 # cask 'docker'                # Containerization platform
 brew 'fzf'                     # Command-line fuzzy finder
