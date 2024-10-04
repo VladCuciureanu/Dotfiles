@@ -4,9 +4,8 @@ install:
 	@make xcode
 	@make brew
 
-	@echo "Symlinking ZSH files..."
-	@rm -rf $$HOME/.zshrc
-	@ln -sw $$HOME/.dotfiles/zsh/.zshrc $$HOME/.zshrc
+	@echo "Stowing dotfiles..."
+	@stow zsh
 
 	@echo "Creating a projects directories..."
 	@mkdir -p $$HOME/Developer

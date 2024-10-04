@@ -33,6 +33,7 @@ cask 'google-chrome'					# Web browser
 # cask 'inkscape'						# Vector graphics editor
 
 # Development Tools
+brew 'stow'
 # cask 'alacritty'						# Terminal emulator
 cask 'dbeaver-community'				# Database tool
 # cask 'docker'							# Containerization platform
