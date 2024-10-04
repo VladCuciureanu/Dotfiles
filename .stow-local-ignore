@@ -22,10 +22,10 @@ _darcs
 ^/LICENSE.*
 ^/COPYING
 
+\.vscode
 \.DS_Store
+\.editorconfig
+\.macos
 \Brewfile
 \Brewfile.lock.json
 \Makefile
-\.macos
-\.editorconfig
-\.vscode
