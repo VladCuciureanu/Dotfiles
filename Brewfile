@@ -3,61 +3,63 @@
 # tap 'homebrew/cask'
 
 # Productivity & Utilities
-cask '1password'               # Password Manager
-brew 'blueutil'                # Command-line Bluetooth utility
-brew 'mackup'                  # Backup utility for macOS settings
-cask 'notion'                  # Note-taking and collaboration
-cask 'sanesidebuttons'         # Mouse side button utility
-cask 'the-unarchiver'          # File extractor
-cask 'transmission'            # Torrent client
+cask '1password'						# Password Manager
+brew 'blueutil'							# Command-line Bluetooth utility
+# brew 'mackup'							# Backup utility for macOS settings
+# cask 'notion'							# Note-taking and collaboration
+cask 'raycast'							# Spotlight replacement
+cask 'sanesidebuttons'					# Mouse side button utility
+cask 'the-unarchiver'					# File extractor
+cask 'transmission'						# Torrent client
+# cask 'obsidian'						# Note-taking and knowledge management
 
 # Communication & Social
-cask 'discord'                 # Chat platform for gamers/communities
-# cask 'loom'                  # Video messaging tool
-cask 'nvidia-geforce-now'      # Cloud gaming
-cask 'slack'                   # Team communication
-cask 'steam'                   # Gaming platform
-cask 'whatsapp'                # Messaging app
-cask 'zoom'                    # Video conferencing
+cask 'discord'							# Chat platform for gamers/communities
+# cask 'loom'							# Video messaging tool
+cask 'nvidia-geforce-now'				# Cloud gaming
+# cask 'slack'							# Team communication
+# cask 'steam'							# Gaming platform
+cask 'whatsapp'							# Messaging app
+cask 'zoom'								# Video conferencing
 
 # Web Browsers
-cask 'firefox'                 # Web browser
-cask 'google-chrome'           # Web browser
+# cask 'firefox'						# Web browser
+cask 'google-chrome'					# Web browser
 
 # Design & Creative Tools
-cask 'blender'                 # 3D modeling
-cask 'figma'                   # Design tool
-# cask 'gimp'                  # Image editing software
-# cask 'inkscape'              # Vector graphics editor
+# cask 'blender'						# 3D modeling
+# cask 'figma'							# Design tool
+# cask 'gimp'							# Image editing software
+# cask 'inkscape'						# Vector graphics editor
 
 # Development Tools
-cask 'alacritty'               # Terminal emulator
-cask 'dbeaver-community'       # Database tool
-# cask 'docker'                # Containerization platform
-brew 'fzf'                     # Command-line fuzzy finder
-# cask 'insomnia'              # API Client for REST and GraphQL
-brew 'neovim'                  # Text editor
-brew 'nvm'                     # Node Version Manager
-brew 'openjdk@17'              # Java Development Kit 17
-cask 'orbstack'                # Docker Alternative (for containers/VMs)
-# brew 'poetry'                # Python dependency management
-cask 'postman'                 # API Development Tool
-# brew 'pyenv'                 # Python version management
-# brew 'redis'                 # In-memory key-value store (database)
-# brew 'supabase/tap/supabase' # Supabase CLI
-cask 'visual-studio-code'      # Code editor
-cask 'warp'                    # Terminal emulator
-# cask 'wave'                    # Terminal emulator
-brew 'zoxide'                  # Smarter cd command
-brew 'zsh-autocomplete'        # Autocompletion for Zsh
+# cask 'alacritty'						# Terminal emulator
+cask 'dbeaver-community'				# Database tool
+# cask 'docker'							# Containerization platform
+brew 'fzf'								# Command-line fuzzy finder
+# cask 'insomnia'						# API Client for REST and GraphQL
+brew 'neovim'							# Text editor
+brew 'nvm'								# Node Version Manager
+brew 'openjdk@17'						# Java Development Kit 17
+cask 'orbstack'							# Docker Alternative (for containers/VMs)
+# brew 'poetry'							# Python dependency management
+cask 'postman'							# API Development Tool
+# brew 'pyenv'							# Python version management
+# brew 'redis'							# In-memory key-value store (database)
+# brew 'supabase/tap/supabase'			# Supabase CLI
+cask 'visual-studio-code'				# Code editor
+cask 'warp'								# Terminal emulator
+# cask 'wave'							# Terminal emulator
+brew 'zoxide'							# Smarter cd command
+brew 'zsh-autocomplete'					# Autocompletion for Zsh
 
 # Fonts
-cask 'font-jetbrains-mono'      # JetBrains Mono font
-cask 'font-jetbrains-mono-nerd-font'  # JetBrains Mono Nerd Font
+cask 'font-jetbrains-mono'				# JetBrains Mono font
+cask 'font-jetbrains-mono-nerd-font'	# JetBrains Mono Nerd Font
 
 # Media Players
-cask 'vlc'                     # Media player
+cask 'vlc'								# Media player
 
 # Networking
-brew 'curl'                    # Command-line tool for transferring data
-# cask 'ngrok'                 # Secure introspectable tunnels to localhost
+brew 'curl'								# Command-line tool for transferring data
+# cask 'ngrok'							# Secure introspectable tunnels to localhost
