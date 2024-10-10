@@ -17,7 +17,7 @@ cask 'transmission'						# Torrent client
 cask 'discord'							# Chat platform for gamers/communities
 # cask 'loom'							# Video messaging tool
 cask 'nvidia-geforce-now'				# Cloud gaming
-# cask 'slack'							# Team communication
+cask 'slack'							# Team communication
 # cask 'steam'							# Gaming platform
 cask 'whatsapp'							# Messaging app
 cask 'zoom'								# Video conferencing
@@ -27,7 +27,7 @@ cask 'zoom'								# Video conferencing
 cask 'google-chrome'					# Web browser
 
 # Design & Creative Tools
-# cask 'blender'						# 3D modeling
+cask 'blender'						# 3D modeling
 # cask 'figma'							# Design tool
 # cask 'gimp'							# Image editing software
 # cask 'inkscape'						# Vector graphics editor
@@ -43,9 +43,9 @@ brew 'neovim'							# Text editor
 brew 'nvm'								# Node Version Manager
 brew 'openjdk@17'						# Java Development Kit 17
 cask 'orbstack'							# Docker Alternative (for containers/VMs)
-# brew 'poetry'							# Python dependency management
+brew 'poetry'							# Python dependency management
 cask 'postman'							# API Development Tool
-# brew 'pyenv'							# Python version management
+brew 'pyenv'							# Python version management
 # brew 'redis'							# In-memory key-value store (database)
 # brew 'supabase/tap/supabase'			# Supabase CLI
 cask 'visual-studio-code'				# Code editor
@@ -63,4 +63,4 @@ cask 'vlc'								# Media player
 
 # Networking
 brew 'curl'								# Command-line tool for transferring data
-# cask 'ngrok'							# Secure introspectable tunnels to localhost
+cask 'ngrok'							# Secure introspectable tunnels to localhost
