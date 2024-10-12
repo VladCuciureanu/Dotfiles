@@ -6,10 +6,10 @@ alias .....="cd ../../../.."
 
 # Directories
 
-alias dotfiles="cd $DOTFILES"
-alias library="cd $HOME/Library"
-alias projects="cd $HOME/Developer/Personal"
-alias work="cd $HOME/Developer/Work"
+# alias dotfiles="cd $DOTFILES"
+# alias library="cd $HOME/Library"
+# alias projects="cd $HOME/Developer/Personal"
+# alias work="cd $HOME/Developer/Work"
 
 # Git
 
