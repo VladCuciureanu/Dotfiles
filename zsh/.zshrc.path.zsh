@@ -13,3 +13,7 @@ add_to_path "$DOTFILES/bin"
 
 # Add Go to path
 #add_to_path "/usr/local/go/bin"
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
+eval "$(mise activate zsh)"

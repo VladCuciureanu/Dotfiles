@@ -6,7 +6,10 @@ alias .....="cd ../../../.."
 
 # Directories
 
-# alias dotfiles="cd $DOTFILES"
+alias dotfiles="cd $DOTFILES"
+alias dots="dotfiles"
+alias developer="cd $HOME/Developer"
+alias dev="developer"
 # alias library="cd $HOME/Library"
 # alias projects="cd $HOME/Developer/Personal"
 # alias work="cd $HOME/Developer/Work"

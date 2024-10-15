@@ -10,7 +10,7 @@ cask 'notion'							# Note-taking and collaboration
 cask 'raycast'							# Spotlight replacement
 cask 'sanesidebuttons'					# Mouse side button utility
 cask 'the-unarchiver'					# File extractor
-cask 'microsoft-outlook'				# Email client
+# cask 'microsoft-outlook'				# Email client
 # cask 'transmission'						# Torrent client
 # cask 'obsidian'						# Note-taking and knowledge management
 
@@ -35,6 +35,7 @@ cask 'figma'							# Design tool
 # cask 'inkscape'						# Vector graphics editor
 
 # Development Tools
+cask 'visual-studio-code'
 brew 'stow'
 # cask 'alacritty'						# Terminal emulator
 # cask 'dbeaver-community'				# Database tool
