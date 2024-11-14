@@ -3,11 +3,12 @@
 # tap 'homebrew/cask'
 
 # Productivity & Utilities
-cask '1password'						# Password Manager
+# cask '1password'						# Password Manager
+cask 'adobe-acrobat-reader'				# PDF reader used for digital signing
 brew 'blueutil'							# Command-line Bluetooth utility
 # brew 'mackup'							# Backup utility for macOS settings
 # cask 'notion'							# Note-taking and collaboration
-cask 'craft'							# Note-taking and collaboration
+# cask 'craft'							# Note-taking and collaboration
 cask 'raycast'							# Spotlight replacement
 cask 'sanesidebuttons'					# Mouse side button utility
 cask 'the-unarchiver'					# File extractor
