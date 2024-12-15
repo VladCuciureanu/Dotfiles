@@ -4,7 +4,7 @@
 
 # Productivity & Utilities
 # cask '1password'						# Password Manager
-cask 'adobe-acrobat-reader'				# PDF reader used for digital signing
+cask 'adobe-acrobat-reader'				# PDF reader used for digital signatures
 brew 'blueutil'							# Command-line Bluetooth utility
 # brew 'mackup'							# Backup utility for macOS settings
 # cask 'notion'							# Note-taking and collaboration

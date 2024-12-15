@@ -71,3 +71,6 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
 POWERLEVEL9K_DISABLE_CONFIGURATION_WIZARD=true
+[ -s "/Users/vlad.cuciureanu/.jabba/jabba.sh" ] && source "/Users/vlad.cuciureanu/.jabba/jabba.sh"
+# Added by LM Studio CLI tool (lms)
+export PATH="$PATH:/Users/vlad.cuciureanu/.cache/lm-studio/bin"
