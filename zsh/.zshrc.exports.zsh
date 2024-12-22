@@ -38,3 +38,8 @@ export NVM_DIR="$HOME/.nvm"
 export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
+
+# [ -s "/Users/vlad.cuciureanu/.jabba/jabba.sh" ] && source "/Users/vlad.cuciureanu/.jabba/jabba.sh"
+
+# Added by LM Studio CLI tool (lms)
+# export PATH="$PATH:/Users/vlad.cuciureanu/.cache/lm-studio/bin"
