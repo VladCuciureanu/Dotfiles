@@ -1,8 +1,8 @@
 # Load sharded config
-source $HOME/.zshrc.aliases.zsh
-source $HOME/.zshrc.exports.zsh
-source $HOME/.zshrc.history.zsh
-source $HOME/.zshrc.path.zsh
+[[ -f ~/.zsh/aliases.zsh ]] && source ~/.zsh/aliases.zsh
+[[ -f ~/.zsh/exports.zsh ]] && source ~/.zsh/exports.zsh
+[[ -f ~/.zsh/path.zsh ]] && source ~/.zsh/path.zsh
+[[ -f ~/.zsh/history.zsh ]] && source ~/.zsh/history.zsh
 
 # Set the directory we want to store zinit and plugins
 ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
@@ -51,3 +51,6 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 # Shell integrations
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
+
+# Load starship
+eval "$(starship init zsh)"
