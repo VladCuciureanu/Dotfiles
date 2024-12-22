@@ -56,6 +56,7 @@ cask 'warp'								# Terminal emulator
 # cask 'wave'							# Terminal emulator
 brew 'zoxide'							# Smarter cd command
 brew 'zsh-autocomplete'					# Autocompletion for Zsh
+brew 'eza'								# A modern, maintained replacement for ls, written in rust
 
 # Fonts
 cask 'font-jetbrains-mono'				# JetBrains Mono font
