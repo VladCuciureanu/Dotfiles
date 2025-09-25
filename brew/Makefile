@@ -7,9 +7,6 @@ install:
 	@echo "Making sure we’re using the latest Homebrew..."
 	@brew update
 
-	@echo "Installing all our dependencies with bundle (See Brewfile)..."
-	@brew tap homebrew/bundle
-
 	@echo "Upgrading any already-installed formulae..."
 	@brew upgrade
 

@@ -3,9 +3,8 @@ install:
 
 	@make xcode
 	@make brew
-
-	@echo "Stowing dotfiles..."
-	@stow zsh
+	@make zsh
+	@make neovim
 
 	@echo "Creating a projects directories..."
 	@mkdir -p $$HOME/Developer
@@ -23,4 +22,10 @@ brew:
 macos:
 	cd macos; make install
 
-.PHONY: install xcode brew macos
+zsh:
+	cd zsh; make install
+
+neovim:
+	cd neovim; make install
+
+.PHONY: install xcode brew macos zsh
