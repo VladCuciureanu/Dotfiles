@@ -54,3 +54,17 @@ eval "$(zoxide init --cmd cd zsh)"
 
 # Load starship
 eval "$(starship init zsh)"
+
+# bun completions
+[ -s "/Users/vlad.cuciureanu/.bun/_bun" ] && source "/Users/vlad.cuciureanu/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/vlad.cuciureanu/.cache/lm-studio/bin"
+# End of LM Studio CLI section
+
+
+export PATH=$PATH:/Users/vlad.cuciureanu/.spicetify

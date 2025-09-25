@@ -1,5 +1,6 @@
 # Navigation
 
+alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
@@ -34,8 +35,8 @@ alias gc="git checkout"
 # alias nuke="git clean -df && git reset --hard"
 # alias pop="git stash pop"
 # alias prune="git fetch --prune"
-# alias pull="git pull"
-# alias push="git push"
+alias pull="git pull"
+alias push="git push"
 # alias resolve="git add . && git commit --no-edit"
 # alias stash="git stash -u"
 # alias unstage="git restore --staged ."
