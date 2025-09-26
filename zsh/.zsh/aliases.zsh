@@ -6,20 +6,25 @@ alias ....="cd ../../.."
 alias .....="cd ../../../.."
 
 # Directories
+DOTFILES_PATH="$DOTFILES"
+LIBRARY_PATH="$HOME/Library"
+DOWNLOADS_PATH="$HOME/Downloads"
+PROJECTS_PATH="$HOME/Developer/Personal"
+WORK_PATH="$HOME/Developer/Work"
 
-alias dotfiles="cd $DOTFILES"
-alias dots="dotfiles"
+alias dotfiles="cd $DOTFILES_PATH"
+alias dots="cd $DOTFILES_PATH"
 
-alias library="cd $HOME/Library"
+alias library="cd $LIBRARY_PATH"
 
-alias downloads="cd $HOME/Downloads"
-alias dls="downloads"
+alias downloads="cd $DOWNLOADS_PATH"
+alias dls="cd $DOWNLOADS_PATH"
 
-alias projects="cd $HOME/Developer/Personal"
-alias prjs="projects"
+alias projects="cd $PROJECTS_PATH"
+alias prjs="cd $PROJECTS_PATH"
 
-alias work="cd $HOME/Developer/Work"
-alias wrk="work"
+alias work="cd $WORK_PATH"
+alias wrk="cd $WORK_PATH"
 
 # Git
 
